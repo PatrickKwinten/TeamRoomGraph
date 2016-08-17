@@ -44,14 +44,14 @@ public interface Profile extends DVertexFrame {
 	public void setMail(String n);
 	
 	// real edges!
-//	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
-//	public void addTopic(Post post);
-//
-//	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
-//	public void removeTopic(Post post);
-//
-//	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
-//	public Iterable<Post> getPosts();
+	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
+	public void addTopic(Post post);
+
+	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
+	public void removeTopic(Post post);
+
+	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
+	public Iterable<Post> getPosts();
 
 //	@AdjacencyUnique(label = "workedOnProject", direction = Direction.IN)
 //	public void addProject(Project project);
