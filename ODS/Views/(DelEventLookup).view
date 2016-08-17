@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.5'
+ replicaid='C12580120062D08B'>
+<noteinfo noteid='1da' unid='0682194A3B801E68802577C2003DF6C5' sequence='34'>
+<created><datetime dst='true'>20101020T121648,69+01</datetime></created>
+<modified><datetime dst='true'>20160817T195920,45+02</datetime></modified>
+<revised><datetime dst='true'>20131002T111059,03-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20160817T195920,45+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160817T195920,45+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>(DelEventLookup)|DelEventLookup</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+pAACADwAAgAkMAUADABFdmVudFN1bW1hcnkBAAIAICgiAgUACQBFdmVudERhdGUAVgEiAgEAAQAp
+ACICAwAFAB4AGQADAAIACQAEACQwJENvbmZsaWN0JFJFRgAEAAQAAAAuAAUABABmb3JtAQAFAEV2
+ZW50AAoCBQAGAFN0YXR1cwEAAQAxAAoCHAIDAAcAFgAQAAlMMVMyUzNTNFM1UzZTN1M=
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABEAGYAAAACACQw
+</rawitemdata></item>
+<item name='$VIEWFORMAT' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQABAAEACAAAAFZDAQACAAEAUgAAAI8AAQAACgAAAAAAAAAAAAICAAAAJDAjUgACADwAAgAkMAUA
+DABFdmVudFN1bW1hcnkBAAIAICgiAgUACQBFdmVudERhdGUAVgEiAgEAAQApACICAwAHABQADQAJ
+MVMyUzNTNFM4UzlTACYAAQAAAAEBAAkBAAAKAQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJ
+AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////
+AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$DesignerVersion' sign='true'><text>8</text></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item></note>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2ae" sequence="277" unid="7F6724B2182888E4802577C2003DFA8B">
+<created><datetime dst="true">20101020T121658,35+01</datetime></created>
+<modified><datetime dst="true">20160817T195921,51+02</datetime></modified>
+<revised><datetime dst="true">20131002T111101,27-04</datetime></revised>
+<lastaccessed><datetime dst="true">20160817T195921,51+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T195921,51+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime>20101215T065247,72+00</datetime><datetime dst="true">20110830T205047,75-04</datetime><datetime dst="true">20111006T160527,16+01</datetime><datetime dst="true">20111012T143429,23+01</datetime><datetime dst="true">20111012T143437,72+01</datetime><datetime dst="true">20111014T083947,01+01</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$TITLE"><text>strings.properties</text></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$MimeCharSet" sign="true"><text>UTF-8</text></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>strings.properties</text></item></note>
