@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="7e6" sequence="26" unid="F9C2E7B7756C335A80257949003B2982">
+<created><datetime>20111115T104612,50+00</datetime></created>
+<modified><datetime dst="true">20160817T195927,25+02</datetime></modified>
+<revised><datetime dst="true">20131002T111105,57-04</datetime></revised>
+<lastaccessed><datetime dst="true">20160817T195927,25+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T195927,25+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$TITLE"><text>teamroom_57px.png</text></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$FileModDT" sign="true"><datetime>20111111T182124,20+00</datetime></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>teamroom_57px.png</text></item></note>

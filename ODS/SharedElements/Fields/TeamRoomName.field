@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='sharedfield' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.5'
+ replicaid='C12580120062D08B'>
+<noteinfo noteid='21e' unid='B38FE343DDC5DC78802577C2003DF804' sequence='31'>
+<created><datetime dst='true'>20101020T121651,88+01</datetime></created>
+<modified><datetime dst='true'>20160817T195920,79+02</datetime></modified>
+<revised><datetime dst='true'>20131002T111059,39-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20160817T195920,79+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160817T195920,79+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$TITLE'><text>TeamRoomName</text></item>
+<item name='$INFO' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+</rawitemdata></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>6</text></item>
+<item name='TeamRoomName' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$Fields'><text>TeamRoomName</text></item>
+<item name='$BODY' summary='true' sign='true'>
+<rawitemdata type='1'>
+gQKC/1IAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJQHAAAAAAAAAAAAAAAAgwQBAIX/CAABAAAK3QYAAIr//v9UAAAAAQAAAAEA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAuLCQAiv9YAogBAAUAMAIAAAAAAAACAQAOCCgCAAAAAAAADAAAAAAAKAIHABwA
+FQBWYXJpYWJsZSB0byB0cmFuc2xhdGUABwAKAAMACTFTAAEAUgADAFR4dAABAEIAPFRoZSBUZWFt
+Um9vbSBTZXR1cCBmb3IgdGhpcyBUZWFtUm9vbSBoYXMgbm90IHlldCBiZWVuIGNvbXBsZXRlZC4+
+AwAHAAwABQAJMFIxUwABAEYACgBOb1RlYW1OYW1lAQAwAC0tTm8gdGVhbSBuYW1lIHNwZWNpZmll
+ZCBpbiB0aGUgVGVhbVJvb20gU2V0dXAtLQMABwAOAAcACTBSMVMyUwAHACAAGQBFbmQgdmFyaWFi
+bGUgdG8gdHJhbnNsYXRlAAcADAAFAAkwUjFTAAEAHgAEAFZpZXcBAA0ATWlzc2lvbkxvb2t1cAAD
+AAcADgAIAAkwUlIxUzJTAQBMAA4AVGVhbU5hbWVMb29rdXABAAAAAQAHAE5vQ2FjaGUAHwIBAAAA
+BQAEAFZpZXcBAAcATWlzc2lvbgAAAAAAAAAAAABAgwUDAAcAHAAWAAkwUjFTMlM1UzZTOFMxMFMx
+MlMxNFMAAHQABQAOAFRlYW1OYW1lTG9va3VwWgGvAFgADgAFAAMAVHh0AK4ASgAFAA4AVGVhbU5h
+bWVMb29rdXABAAAACgKvAC4AFAAFAAoATm9UZWFtTmFtZa4AGgAFAA4AVGVhbU5hbWVMb29rdXCu
+AAQAtQUDAAcAGgATAAkwUjdTOVMxMFMxMVMxM1MxNVMAVGVhbVJvb21OYW1lev8mAAwAAAAAAAAA
+AAAAAAAAAAAAAAAAAABUZWFtUm9vbU5hbWXeBgAAiv+F/wgAAQAACg==
+</rawitemdata></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item></note>
+
