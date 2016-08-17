@@ -2,8 +2,8 @@ package com.wordpress.quintessens.graph.teamroom;
 
 import org.openntf.domino.graph2.annotations.AdjacencyUnique;
 import org.openntf.domino.graph2.builtin.DVertexFrame;
-
-//import com.wordpress.quintessens.graph.*;
+//add our graph data modelling classes
+//import com.wordpress.quintessens.graph.teamroom.Post;
 //import org.openntf.graph.Birthday;
 //import org.openntf.graph.Project;
 //import org.openntf.graph.Skill;

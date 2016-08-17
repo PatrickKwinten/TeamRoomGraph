@@ -59,7 +59,7 @@ public class GraphHelper {
 
 			// setup the types
 			commonStore.addType(Profile.class);
-//			commonStore.addType(Post.class);
+			commonStore.addType(Post.class);
 //			commonStore.addType(Birthday.class);
 //			
 //			commonStore.addType(Project.class);

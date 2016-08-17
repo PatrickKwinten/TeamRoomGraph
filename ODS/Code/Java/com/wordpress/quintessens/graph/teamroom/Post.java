@@ -3,7 +3,7 @@ package com.wordpress.quintessens.graph.teamroom;
 import org.openntf.domino.graph2.annotations.AdjacencyUnique;
 import org.openntf.domino.graph2.builtin.DVertexFrame;
 //add our graph data modelling classes
-import com.wordpress.quintessens.graph.teamroom.Profile;
+//import com.wordpress.quintessens.graph.teamroom.Profile;
 
 import com.tinkerpop.blueprints.Direction;
 import com.tinkerpop.frames.Property;
