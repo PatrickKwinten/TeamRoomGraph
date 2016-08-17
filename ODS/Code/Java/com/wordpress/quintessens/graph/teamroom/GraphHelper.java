@@ -58,13 +58,14 @@ public class GraphHelper {
 			commonStore.setStoreKey(fileName);
 
 			// setup the types
-//			commonStore.addType(Profile.class);
+			commonStore.addType(Profile.class);
+//			commonStore.addType(Post.class);
 //			commonStore.addType(Birthday.class);
 //			
 //			commonStore.addType(Project.class);
 //			commonStore.addType(Skill.class);
 
-			// create a graph config 
+			// create a graph configuration 
 			DConfiguration config = new DConfiguration();
 			DGraph graph = new DGraph(config);
 
@@ -91,7 +92,7 @@ public class GraphHelper {
 		try {
 			Database currentDb = Factory.getSession(SessionType.CURRENT).getCurrentDatabase();
 			Database graphDb = Factory.getSession(SessionType.CURRENT).getDatabase(currentDb.getServer(), getGraphDatabaseFilepath());
-			System.out.println(graphDb.getTitle());
+			//System.out.println(graphDb.getTitle());
 			DocumentCollection col = graphDb.getAllDocuments();
 			col.removeAll(true);
 		} catch (Throwable t) {
