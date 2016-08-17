@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<xp:button
+						id="button3"
+						styleClass="btn-primary col-xs-12"
+						value="Migrate Data">
+						<xp:eventHandler
+							event="onclick"
+							submit="true"
+							refreshMode="norefresh">
+							<xp:this.action><![CDATA[#{javascript:if(migration.migrateData()){
+	context.redirectToPage("migration_success.xsp")
+} else {
+	context.redirectToPage("migrated_error.xsp")
+}}]]></xp:this.action>
+
+						</xp:eventHandler>
+					</xp:button>
+</xp:view>
