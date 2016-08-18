@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note xmlns="http://www.lotus.com/dxl" class="form">
-  <item name="$Flags">
-    <text>gC~4K</text>
-  </item>
-  <item name="$TITLE">
-    <text>migration_success.xsp</text>
-  </item>
-  <item name="$FileNames" sign="true">
-    <text>migration_success.xsp</text>
-  </item>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3b22" sequence="9" unid="5EE9DE1E00381DE8C1258012006A2EEC">
+<created><datetime dst="true">20160817T211948,28+02</datetime></created>
+<modified><datetime dst="true">20160817T211959,91+02</datetime></modified>
+<revised><datetime dst="true">20160817T211959,90+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160817T211959,91+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T211948,29+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>gC~4K</text></item>
+<item name="$TITLE"><text>migration_success.xsp</text></item>
+
+
+
+<item name="$FileNames" sign="true"><text>migration_success.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
 </note>

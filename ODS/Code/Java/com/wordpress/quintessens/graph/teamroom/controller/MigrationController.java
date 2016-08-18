@@ -66,8 +66,34 @@ public class MigrationController implements Serializable {
 	private void migrateTopics(Document doc, DFramedTransactionalGraph<DGraph> profilesGraph, Profile profile) {
 		try {
 			Database db = Factory.getSession().getCurrentDatabase();
-		    View view = db.getView("AuthorView");
-			Vector<String> authors = doc.getAuthors();
+		    View view = db.getView("postsbyAuthor");
+		    System.out.println("id:" + doc.getUniversalID());
+		    System.out.println("form:" + doc.getFormName());
+		    String author = doc.getItemValueString("GetAlternateName");
+		    System.out.println("author:" + author);
+		    DocumentCollection col = view.getAllDocumentsByKey(author, true);
+			System.out.println("number of docs found for " + author + " : " + col.getCount());
+			
+			for (Document post : col) {
+				
+				System.out.println("form:" + post.getFormName());
+	        	System.out.println("id:" + post.getUniversalID());
+	        	Post vertexPost = profilesGraph.addVertex(post.getUniversalID(), Post.class);
+	        	vertexPost.setSubject(post.getItemValueString("Subject"));
+	        	profile.addTopic(vertexPost);
+	        	//profilesGraph.commit();
+			}
+			
+	       /* doc = (Document) dc.getFirstDocument();
+	        while (dc!=null) {
+	        	System.out.println("form:" + doc.getFormName());
+	        	System.out.println("id:" + doc.getUniversalID());
+	        	//Post vertexPost = profilesGraph.addVertex(doc.getUniversalID(), Post.class);
+	        	//vertexPost.setSubject(doc.getItemValueString("Subject"));
+	        	//profile.addTopic(vertexPost);
+
+	        }*/
+/*			Vector<String> authors = doc.getAuthors();
 			for (String author : authors)
 			{
 				System.out.println("author:" + author);
@@ -79,7 +105,7 @@ public class MigrationController implements Serializable {
 			        	vertexTopic.setSubject(author);
 			        	profile.addTopic(vertexTopic);
 			        }
-			}
+			}*/
 			
 			profilesGraph.commit();
 		} catch (Throwable t) {

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
  maintenanceversion='1.5' replicaid='C12580120062D08B'>
-<noteinfo noteid='116' unid='85255A0A0010AC8E85254BD4001E8D43' sequence='9'>
+<noteinfo noteid='116' unid='85255A0A0010AC8E85254BD4001E8D43' sequence='14'>
 <created><datetime>19800105T003342,43-05</datetime></created>
-<modified><datetime dst='true'>20160817T200031,89+02</datetime></modified>
-<revised><datetime dst='true'>20160817T200031,88+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20160817T200031,89+02</datetime></lastaccessed>
+<modified><datetime dst='true'>20160818T115017,30+02</datetime></modified>
+<revised><datetime dst='true'>20160818T115017,29+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160818T115017,30+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20160817T195919,47+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name
 >CN=Patrick Kwinten/O=quintessens</name></updatedby>
@@ -47,10 +47,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAA==
 <item name='$DBTheme'><text>oneuiv2_1_blue.theme</text></item>
 <item name='$DefaultFrameset'><text>TeamRoomFrameset</text></item>
 <item name='$DefaultXPage'><text>main.xsp</text></item>
-<item name='$Flags'><text>J7F!f</text></item>
-<item name='$LaunchXPageRunOnServer'><text>0</text></item>
-<item name='$FlagsNoRefresh'><text>rv</text></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$TITLE'><text>TeamRoom
-TeamRoom</text></item></note>
+TeamRoom</text></item>
+<item name='$Flags'><text>J7F!f</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text>rv</text></item></note>
 
