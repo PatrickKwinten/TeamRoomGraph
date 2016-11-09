@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core">migration success
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" pageTitle="Success">
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active">
+						<xp:link escape="true" text="Home" id="link3"
+							value="/graph_profiles.xsp" />
+					</li>
+					<li role="presentation">
+						<xp:link escape="true" text="Contact" id="link4"
+							value="https://se.linkedin.com/in/patrickkwinten"
+							target="_blank" />
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">
+				TeamRoom with GraphNSF integration
+			</h3>
+		</div>
 
+		<div class="jumbotron">
+			<h1>Success</h1>
+			<p class="lead">
+				Awesome. The migration was a big success! Want to see the results?
+			</p>
+			<p>
+				<xp:link styleClass="btn btn-lg btn-success"
+					escape="true" id="link1" text="Show me">
+					
+				<xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+					<xp:this.action>
+						<xp:openPage name="/graph_profiles.xsp" />
+					</xp:this.action></xp:eventHandler></xp:link>
+			</p>
+		</div>
+		<footer class="footer">
+			<p>
+				2016&#160;
+				<xp:link escape="true" text="Kwintessential Notes"
+					id="link5" target="_blank"
+					value="http://quintessens.wordpress.com" />
+				&#160;- All rights reserved.
+			</p>
+		</footer>
+	</div>
 </xp:view>

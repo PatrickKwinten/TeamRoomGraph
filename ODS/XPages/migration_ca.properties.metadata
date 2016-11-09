@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note xmlns="http://www.lotus.com/dxl" class="form">
-  <item name="$Flags">
-    <text>gC~4K2</text>
-  </item>
-  <item name="$FileNames" sign="true">
-    <text>Migration_ca.properties</text>
-  </item>
-  <item name="$TITLE">
-    <text>migration_ca.properties</text>
-  </item>
-</note>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3ab6" sequence="22" unid="DA4253C3A32BCE5BC1258012006A1F02">
+<created><datetime dst="true">20160817T211907,54+02</datetime></created>
+<modified><datetime>20161109T182021,40+01</datetime></modified>
+<revised><datetime>20161109T182021,39+01</datetime></revised>
+<lastaccessed><datetime>20161109T182021,40+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T211907,57+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>migration_ca.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>migration_ca.properties</text></item></note>

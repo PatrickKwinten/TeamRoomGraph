@@ -29,7 +29,7 @@ public class GraphHelper {
 			// create a graph config 
 			DConfiguration config = new DConfiguration();
 			DGraph graph = new DGraph(config);
-
+			
 			// add the config element store
 			config.addElementStore(configStore);
 			config.setDefaultElementStore(configStore.getStoreKey());
@@ -60,10 +60,7 @@ public class GraphHelper {
 			// setup the types
 			commonStore.addType(Profile.class);
 			commonStore.addType(Post.class);
-//			commonStore.addType(Birthday.class);
-//			
-//			commonStore.addType(Project.class);
-//			commonStore.addType(Skill.class);
+			commonStore.addType(Response.class);
 
 			// create a graph configuration 
 			DConfiguration config = new DConfiguration();

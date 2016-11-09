@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note xmlns="http://www.lotus.com/dxl" class="form">
-  <item name="$Flags">
-    <text>gC~4K2</text>
-  </item>
-  <item name="$TITLE">
-    <text>migration_error_hu.properties</text>
-  </item>
-  <item name="$FileNames" sign="true">
-    <text>migration_error_hu.properties</text>
-  </item>
-</note>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3bc6" sequence="3" unid="0B7F8FF246722588C1258012006A3A81">
+<created><datetime dst="true">20160817T212017,93+02</datetime></created>
+<modified><datetime dst="true">20160817T212025,03+02</datetime></modified>
+<revised><datetime dst="true">20160817T212025,02+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160817T212025,03+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T212018,15+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>migration_error_hu.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>migration_error_hu.properties</text></item></note>

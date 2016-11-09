@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note xmlns="http://www.lotus.com/dxl" class="form">
-  <item name="$Flags">
-    <text>34567Cg~[</text>
-  </item>
-  <item name="$TITLE">
-    <text>com/wordpress/quintessens/graph/teamroom/controller/MigrationController.java</text>
-  </item>
-  <item name="$FileNames" sign="true">
-    <text>com/wordpress/quintessens/graph/teamroom/controller/MigrationController.java</text>
-  </item>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3aa6" sequence="39" unid="5B8C53B74E4B8200C12580120069DC80">
+<created><datetime dst="true">20160817T211617,28+02</datetime></created>
+<modified><datetime dst="true">20160818T115521,49+02</datetime></modified>
+<revised><datetime dst="true">20160818T115521,48+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160818T115521,49+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160817T211617,32+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/wordpress/quintessens/graph/teamroom/controller/MigrationController.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/wordpress/quintessens/graph/teamroom/controller/MigrationController.java</text></item>
+
 </note>
