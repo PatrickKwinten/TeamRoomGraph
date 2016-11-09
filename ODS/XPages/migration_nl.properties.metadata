@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="3aee" sequence="4" unid="B0ACD510A441FEBFC1258012006A1F30">
+<noteinfo noteid="3aee" sequence="22" unid="B0ACD510A441FEBFC1258012006A1F30">
 <created><datetime dst="true">20160817T211908,00+02</datetime></created>
-<modified><datetime dst="true">20160817T211930,65+02</datetime></modified>
-<revised><datetime dst="true">20160817T211930,64+02</datetime></revised>
-<lastaccessed><datetime dst="true">20160817T211930,65+02</datetime></lastaccessed>
+<modified><datetime>20161109T182021,73+01</datetime></modified>
+<revised><datetime>20161109T182021,72+01</datetime></revised>
+<lastaccessed><datetime>20161109T182021,73+01</datetime></lastaccessed>
 <addedtofile><datetime dst="true">20160817T211908,17+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
 <wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
 <item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>migration_nl.properties</text></item>
 
 
-<item name="$FileNames" sign="true"><text>Migration_nl.properties</text></item>
-<item name="$TITLE"><text>migration_nl.properties</text></item></note>
+<item name="$FileNames" sign="true"><text>migration_nl.properties</text></item></note>

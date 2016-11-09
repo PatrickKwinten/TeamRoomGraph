@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
-<xp:button
-						id="button3"
-						styleClass="btn-primary col-xs-12"
-						value="Migrate Data">
-						<xp:eventHandler
-							event="onclick"
-							submit="true"
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" pageTitle="Migrate">
+
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active">
+						<xp:link escape="true" text="Home" id="link3"
+							value="/graph_profiles.xsp">
+						</xp:link>
+					</li>
+
+					<li role="presentation">
+						<xp:link escape="true" text="Contact" id="link4"
+							value="https://se.linkedin.com/in/patrickkwinten"
+							target="_blank">
+						</xp:link>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">
+				TeamRoom with GraphNSF integration
+			</h3>
+		</div>
+
+		<div class="jumbotron">
+			<h1>Introduction</h1>
+			<p class="lead">
+				This application demonstrates the GraphNSF functionality
+				within the OpenNTF Domino API. In case you are
+				unfamiliar with Graph data-modelling and ODA this video
+				can be of great help:&#160;
+				<xp:link escape="true"
+					text="NotesIn9 192 - Intro to Graph Database in XPages" id="link2"
+					value="http://www.notesin9.com/2016/08/12/notesin9-192-intro-to-graph-database-in-xpages/"
+					target="_blank">
+				</xp:link>
+			</p>
+			<p>
+				<xp:link styleClass="btn btn-lg btn-success"
+					escape="true" text="Download ODA" id="link1"
+					value="https://oda.openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API"
+					target="_blank">
+				</xp:link>
+			</p>
+		</div>
+
+		<div class="row marketing">
+			<div class="col-lg-6">
+				<h4>Migrate data</h4>
+				<p>
+					This action will convert user profiles, main topics
+					and responses into Object classes in the Graph data
+					model
+				</p>
+				<p>
+					<xp:button id="button3"
+						styleClass="btn btn-primary " value="Migrate data">
+						<xp:eventHandler event="onclick" submit="true"
 							refreshMode="norefresh">
 							<xp:this.action><![CDATA[#{javascript:if(migration.migrateData()){
 	context.redirectToPage("migration_success.xsp")
@@ -16,4 +67,55 @@
 
 						</xp:eventHandler>
 					</xp:button>
+				</p>
+
+
+			</div>
+
+			<div class="col-lg-6">
+				<h4>Requirements</h4>
+				<p>
+					This application requires the following
+					installation:
+				</p>
+				<p>
+					<ul>
+						<li>OpenNTF Domino API</li>
+						<li>IBM Domino 9.0.x</li>
+						<li>Extension Library</li>
+					</ul>
+				</p>
+
+				<h4>Guidance</h4>
+				<p>
+					You can make a profile active by clicking on a
+					person name. This will initiate a partial refresh
+					and loads the main topics this person has submitted.
+					When you make a topic active by clicking on it the
+					direct responses on it will be loaded. That's it!
+				</p>
+
+
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p>
+				2016&#160;
+				<xp:link escape="true" text="Kwintessential Notes"
+					id="link5" target="_blank"
+					value="http://quintessens.wordpress.com">
+				</xp:link>
+				&#160; - All rights reserved.
+			</p>
+		</footer>
+
+	</div><!-- /container -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+
+			</div>
+		</div><!-- .row -->
+	</div><!-- .container -->
 </xp:view>

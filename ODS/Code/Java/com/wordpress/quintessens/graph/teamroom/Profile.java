@@ -36,6 +36,12 @@ public interface Profile extends DVertexFrame {
 
 	@Property("Location")
 	public void setLocation(String n);
+	
+	@Property("Job")
+	public String getJob();
+
+	@Property("Job")
+	public void setJob(String n);
 
 	@Property("Email")
 	public String getMail();
@@ -52,6 +58,9 @@ public interface Profile extends DVertexFrame {
 
 	@AdjacencyUnique(label = "hasWritten", direction = Direction.IN)
 	public Iterable<Post> getPosts();
+	
+	@AdjacencyUnique(label = "hasResponded", direction = Direction.IN)
+	public Iterable<Response> getResponses();
 
 //	@AdjacencyUnique(label = "workedOnProject", direction = Direction.IN)
 //	public void addProject(Project project);

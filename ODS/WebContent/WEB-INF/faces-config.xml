@@ -12,6 +12,18 @@
 		</managed-bean-class>
     <managed-bean-scope>view</managed-bean-scope>
   </managed-bean>
+  <managed-bean>
+    <managed-bean-name>profiles</managed-bean-name>
+    <managed-bean-class>com.wordpress.quintessens.graph.teamroom.controller.ProfilesController
+		</managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+  </managed-bean>
+   <managed-bean>
+    <managed-bean-name>posts</managed-bean-name>
+    <managed-bean-class>com.wordpress.quintessens.graph.teamroom.controller.PostController
+		</managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+  </managed-bean>
   <!-- profile -->
   <!--  <managed-bean>-->
   <!--    <managed-bean-name>profile</managed-bean-name>-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3d32" sequence="87" unid="AC3C711771F237BCC1258014004BE327">
+<created><datetime dst="true">20160819T154853,51+02</datetime></created>
+<modified><datetime>20161109T131307,23+01</datetime></modified>
+<revised><datetime>20161109T131307,22+01</datetime></revised>
+<lastaccessed><datetime>20161109T131307,23+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160819T154853,52+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/wordpress/quintessens/graph/teamroom/controller/ProfilesController.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/wordpress/quintessens/graph/teamroom/controller/ProfilesController.java</text></item>
+
+</note>

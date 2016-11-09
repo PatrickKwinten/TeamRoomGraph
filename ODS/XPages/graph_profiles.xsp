@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex"
+	xmlns:debug="http://www.openntf.org/xsp/debugtoolbar">
+	<debug:toolbar defaultCollapsed="false" collapseTo="left"></debug:toolbar>
+	<!-- <xp:this.beforePageLoad><![CDATA[#{javascript:viewScope.put("activePerson","Patrick Kwinten/quintessens")}]]></xp:this.beforePageLoad> -->
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active">
+						<xp:link escape="true" text="Home" id="link6"
+							value="/graph_profiles.xsp">
+						</xp:link>
+					</li>
+					<li role="presentation">
+						<xp:link escape="true" text="Contact" id="link4"
+							value="https://se.linkedin.com/in/patrickkwinten"
+							target="_blank">
+						</xp:link>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">
+				TeamRoom with GraphNSF integration
+			</h3>
+		</div>
+	
+	<div class="container">
+		
+		<h4>Profiles</h4>
+		<table class="table table-sm table-inverse">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Department</th>
+					<th>Job</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<xp:repeat rows="5" value="#{javascript:profiles.getProfiles();}" var="col" indexVar="index" id="rptProfiles">
+					<tr>
+						<td>
+							<xp:link escape="true" text="#{col.name}" id="link1">
+								<xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="pnlTopics">
+									<xp:this.action><![CDATA[#{javascript:viewScope.put("activePerson",col.name)}]]></xp:this.action>
+								</xp:eventHandler>
+							</xp:link>
+
+						</td>
+						<td>
+							<xp:text escape="true" value="#{col.department}">
+							</xp:text>
+						</td>
+						<td>
+							<xp:text escape="true" value="#{col.job}">
+							</xp:text>
+						</td>
+						<td>
+							<xp:text escape="true" value="#{col.location}">
+							</xp:text>
+						</td>
+					</tr>
+				</xp:repeat>
+			</tbody>
+		</table>
+		<xp:pager layout="Previous Group Next" partialRefresh="true" id="pager1" for="rptProfiles"></xp:pager>
+	</div><!-- /.container -->
+	
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6"><xp:panel id="pnlTopics">
+		<div class="">
+			<h4>Topics</h4>
+			<h6>
+				Select a participant's profile to see his/hers
+				contributions...
+			</h6>
+			
+			<table class="table table-sm table-inverse">
+				<thead>
+					<tr>
+					
+						<th>Subject</th>
+						<th>Abstract</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<xp:repeat rows="10" var="col" indexVar="index" id="rptTopics">
+
+						<xp:this.value><![CDATA[#{javascript:var activePerson = viewScope.get("activePerson");
+profiles.getTopics(activePerson);}]]></xp:this.value>
+						<tr>
+
+							<td>
+								<xp:link escape="true" text="#{col.title}" id="link2">
+									<xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="pnlResponses">
+									<xp:this.action><![CDATA[#{javascript:viewScope.put("activeTopic",col.id)}]]></xp:this.action>
+								</xp:eventHandler>
+								</xp:link>
+							</td>
+							<td>
+								<xp:text escape="true" value="#{col.summary}">
+								</xp:text>
+							</td>
+
+						</tr>
+					</xp:repeat>
+				</tbody>
+			</table>
+			<xp:pager layout="Previous Group Next" partialRefresh="true" id="pager2" for="rptTopics">
+			</xp:pager>
+		</div>
+	</xp:panel>
+	</div>
+	
+	<div class="col-md-6"><xp:panel id="pnlResponses">
+		<div class="">
+			<h4>Responses</h4>
+			<h6>
+				Select a topic to see its responses...
+			</h6>
+			
+			<table class="table table-sm table-inverse">
+				<thead>
+					<tr>
+						<th>Subject</th>
+						<th>Abstract</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<xp:repeat rows="10" var="col" indexVar="index" id="rptResponses">
+
+						<xp:this.value><![CDATA[#{javascript:var activeTopic = viewScope.get("activeTopic");
+posts.getResponses(activeTopic);}]]></xp:this.value>
+						<tr>
+							<td>
+								<xp:link escape="true" text="#{col.title}" id="link3">
+								</xp:link>
+							</td>
+							<td>
+								<xp:text escape="true" value="#{col.summary}">
+								</xp:text>
+							</td>
+
+						</tr>
+					</xp:repeat>
+				</tbody>
+			</table>
+			<xp:pager layout="Previous Group Next" partialRefresh="true" id="pager3" for="rptResponses">
+			</xp:pager>
+		</div>
+	</xp:panel></div>
+	</div>
+	</div>
+	
+	<footer class="footer">
+			<p>
+				2016&#160;
+				<xp:link escape="true" text="Kwintessential Notes"
+					id="link5" target="_blank"
+					value="http://quintessens.wordpress.com">
+				</xp:link>
+				&#160; - All rights reserved.
+			</p>
+		</footer>
+	
+	</div><!-- /.container -->
+	
+	
+	
+	
+	
+	
+	
+</xp:view>

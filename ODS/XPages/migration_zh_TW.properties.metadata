@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="3b1e" sequence="4" unid="91A1FD052AAAE103C1258012006A1F4B">
+<noteinfo noteid="3b1e" sequence="22" unid="91A1FD052AAAE103C1258012006A1F4B">
 <created><datetime dst="true">20160817T211908,27+02</datetime></created>
-<modified><datetime dst="true">20160817T211930,41+02</datetime></modified>
-<revised><datetime dst="true">20160817T211930,40+02</datetime></revised>
-<lastaccessed><datetime dst="true">20160817T211930,41+02</datetime></lastaccessed>
+<modified><datetime>20161109T182021,97+01</datetime></modified>
+<revised><datetime>20161109T182021,96+01</datetime></revised>
+<lastaccessed><datetime>20161109T182021,97+01</datetime></lastaccessed>
 <addedtofile><datetime dst="true">20160817T211908,65+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
 <wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
 <item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>migration_zh_TW.properties</text></item>
 
 
-<item name="$FileNames" sign="true"><text>Migration_zh_TW.properties</text></item>
-<item name="$TITLE"><text>migration_zh_TW.properties</text></item></note>
+<item name="$FileNames" sign="true"><text>migration_zh_TW.properties</text></item></note>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C12580120062D08B" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3d2e" sequence="24" unid="585F649667843A1EC1258014004B8F8C">
+<created><datetime dst="true">20160819T154519,48+02</datetime></created>
+<modified><datetime>20161109T134209,70+01</datetime></modified>
+<revised><datetime>20161109T134209,69+01</datetime></revised>
+<lastaccessed><datetime>20161109T134209,70+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160819T154520,11+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>graph_profiles_zh_TW.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>graph_profiles_zh_TW.properties</text></item></note>
